@@ -7,8 +7,7 @@ model = joblib.load("customer_churn_model.pkl")
 
 # Load encoders
 label_encoders = joblib.load("label_encoders.pkl")
-st.write(type(label_encoders))
-st.write(label_encoders)
+
 
 st.set_page_config(
     page_title="Customer Churn Prediction",
